@@ -1,0 +1,60 @@
+body {
+    color: rgba(248, 248, 242, 0.932);
+    background:rgb(1, 49, 1);
+    margin: 0px;
+    font-family: "DM Serif Text", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 5px rgba(248, 248, 242, 0.932);
+    padding: 12px;
+    font-size: 28px;
+}
+
+.chamada { 
+    background: rgb(83, 83, 83);
+    color: rgba(248, 248, 242, 0.932);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 5px rgba(248, 248, 242, 0.932) ;
+}
+
+.chamada-texto {
+    margin-right: 15%;
+}
+
+h1 { 
+font-size: 50px;
+}
+
+p {
+font-size: 35px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria { 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.categoria h2{
+    color: rgba(248, 248, 242, 0.932)
+}
